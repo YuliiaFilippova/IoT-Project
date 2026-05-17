@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Old files
+old/
+
+# YOLO model weights
+*.pt

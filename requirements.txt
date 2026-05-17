@@ -1,0 +1,13 @@
+opencv-python
+ultralytics
+torch
+torchvision
+transformers
+accelerate
+pillow
+numpy
+pandas
+pytesseract
+ollama
+yt-dlp
+ffmpeg-python

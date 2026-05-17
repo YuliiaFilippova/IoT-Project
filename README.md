@@ -111,4 +111,4 @@ python src/analyze_events.py
 
 ## Author
 
-### Yuliia Filippova# IoT-Project
+### Yuliia Filippova
