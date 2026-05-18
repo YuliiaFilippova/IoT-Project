@@ -1,4 +1,4 @@
-# Wildlife Analytics Pipeline
+# Semantic Wildlife Monitoring from Public Livestreams
 
 This project explores how multimodal AI systems can transform raw wildlife livestreams into structured semantic data suitable for ecological monitoring and behavioral analysis.
 
