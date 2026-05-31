@@ -1,0 +1,12 @@
+{
+    "event_id": "20260530_143713",
+    "daytime": "day",
+    "screenshot": "event_20260530_143713.jpg",
+    "species": [],
+    "dominant_species": "unknown",
+    "behavior": "unknown",
+    "interaction": "unknown",
+    "activity_level": "unknown",
+    "summary": "{\n  \"species\": [\n    {\n      \"name\": \"pigeon\",\n      \"count\": 2\n    },\n    {\n      \"name\": \"crow\",\n      \"count\": 1\n    }\n  ],\n  \n  \"dominant_species\": \"pigeon\",\n\n  \"behavior\": \"feeding\",\n  \n  \"interaction\": \"peaceful\",\n  \n  \"activity_level\": \"low\",\n  \n  \"weather\": \"clear\"\n}\n\n\"summary\": \"Two pigeons and one crow are feeding peacefully with a low activity level in clear weather.\"",
+    "event": "species_change"
+}

@@ -1,0 +1,34 @@
+{
+    "event_id": "20260530_144211",
+    "daytime": "day",
+    "screenshot": "event_20260530_144211.jpg",
+    "species": [
+        {
+            "name": "crow",
+            "count": 2
+        },
+        {
+            "name": "pigeon",
+            "count": 1
+        },
+        {
+            "name": "magpie",
+            "count": 1
+        },
+        {
+            "name": "blackbird",
+            "count": 1
+        },
+        {
+            "name": "bluebird",
+            "count": 1
+        }
+    ],
+    "dominant_species": "crow",
+    "behavior": "resting",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Five birds (two crows, one pigeon, one magpie, one blackbird, one bluebird) observed resting in clear weather with a peaceful interaction level.",
+    "event": "species_change"
+}

@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_144757",
+    "daytime": "day",
+    "screenshot": "event_20260530_144757.jpg",
+    "species": [
+        {
+            "name": "Crow",
+            "count": 5
+        }
+    ],
+    "dominant_species": "Crow",
+    "behavior": "feeding",
+    "interaction": "none",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Five crows are peacefully feeding on the ground in a wooden bird feeder with clear weather conditions.",
+    "event": "species_change"
+}

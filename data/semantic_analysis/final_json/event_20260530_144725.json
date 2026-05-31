@@ -1,0 +1,12 @@
+{
+    "event_id": "20260530_144725",
+    "daytime": "day",
+    "screenshot": "event_20260530_144725.jpg",
+    "species": [],
+    "dominant_species": "unknown",
+    "behavior": "unknown",
+    "interaction": "unknown",
+    "activity_level": "unknown",
+    "summary": "{\n  \"species\": [\n    {\n      \"name\": \"crow\",\n      \"count\": 0\n    },\n    {\n      \"name\": \"pigeon\",\n      \"count\": 0\n    }\n  ],\n  \n  \"dominant_species\": \"\",\n\n  \"behavior\": \"feeding\",\n\n  \"interaction\": \"peaceful\",\n\n  \"activity_level\": \"low\",\n\n  \"weather\": \"clear\"\n}\n\n\"summary\": \"Several birds, including crows and pigeons, are feeding peacefully on grain in a wooden bird feeder box with clear weather.\"",
+    "event": "normal_activity"
+}

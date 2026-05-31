@@ -1,0 +1,22 @@
+{
+    "event_id": "20260530_142405",
+    "daytime": "day",
+    "screenshot": "event_20260530_142405.jpg",
+    "species": [
+        {
+            "name": "pigeon",
+            "count": 2
+        },
+        {
+            "name": "bird",
+            "count": 1
+        }
+    ],
+    "dominant_species": "pigeon",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two pigeons and one bird are peacefully feeding in a wooden bird feeder with clear weather.",
+    "event": "species_change"
+}

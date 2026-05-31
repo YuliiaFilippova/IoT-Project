@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_141849",
+    "daytime": "day",
+    "screenshot": "event_20260530_141849.jpg",
+    "species": [
+        {
+            "name": "Pigeon",
+            "count": 1
+        }
+    ],
+    "dominant_species": "Pigeon",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "A Pigeon is feeding on bird seed in a wooden box.",
+    "event": "feeding_activity"
+}

@@ -1,0 +1,22 @@
+{
+    "event_id": "20260530_144857",
+    "daytime": "day",
+    "screenshot": "event_20260530_144857.jpg",
+    "species": [
+        {
+            "name": "black bird",
+            "count": 5
+        },
+        {
+            "name": "gray pigeon",
+            "count": 1
+        }
+    ],
+    "dominant_species": "black bird",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Five black birds and one gray pigeon are feeding peacefully on a wooden feeder box in clear weather.",
+    "event": "species_change"
+}

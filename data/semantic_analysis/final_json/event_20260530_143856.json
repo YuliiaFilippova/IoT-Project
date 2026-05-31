@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_143856",
+    "daytime": "day",
+    "screenshot": "event_20260530_143856.jpg",
+    "species": [
+        {
+            "name": "pigeon",
+            "count": 5
+        }
+    ],
+    "dominant_species": "pigeon",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Five pigeons are feeding on grain in a wooden box with no signs of aggression or competition. The weather is clear with no rain.",
+    "event": "feeding_activity"
+}

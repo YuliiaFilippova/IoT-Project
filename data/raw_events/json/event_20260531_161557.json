@@ -1,0 +1,25 @@
+{
+    "event_id": "20260531_161557",
+    "timestamp": "2026-05-31 16:15:57.775375",
+    "animal_count": 4,
+    "detections": [
+        {
+            "class": "bird",
+            "confidence": 0.87
+        },
+        {
+            "class": "bird",
+            "confidence": 0.74
+        },
+        {
+            "class": "bird",
+            "confidence": 0.68
+        },
+        {
+            "class": "bird",
+            "confidence": 0.62
+        }
+    ],
+    "daytime": "day",
+    "screenshot": "event_20260531_161557.jpg"
+}

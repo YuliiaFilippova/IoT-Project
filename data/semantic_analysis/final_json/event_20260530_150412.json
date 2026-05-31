@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_150412",
+    "daytime": "day",
+    "screenshot": "event_20260530_150412.jpg",
+    "species": [
+        {
+            "name": "black bird",
+            "count": 2
+        }
+    ],
+    "dominant_species": "black bird",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two black birds are feeding peacefully on the ground in front of a wooden bird feeder filled with grain. The weather is clear with no indication of rain or snow.",
+    "event": "species_change"
+}

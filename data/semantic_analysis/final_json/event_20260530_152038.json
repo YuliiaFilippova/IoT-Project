@@ -1,0 +1,22 @@
+{
+    "event_id": "20260530_152038",
+    "daytime": "day",
+    "screenshot": "event_20260530_152038.jpg",
+    "species": [
+        {
+            "name": "sparrow",
+            "count": 2
+        },
+        {
+            "name": "finch",
+            "count": 1
+        }
+    ],
+    "dominant_species": "sparrow",
+    "behavior": "resting",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two sparrows and one finch observed resting peacefully on a clear day.",
+    "event": "normal_activity"
+}

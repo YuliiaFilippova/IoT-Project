@@ -1,0 +1,12 @@
+{
+    "event_id": "20260530_145348",
+    "daytime": "day",
+    "screenshot": "event_20260530_145348.jpg",
+    "species": [],
+    "dominant_species": "unknown",
+    "behavior": "unknown",
+    "interaction": "unknown",
+    "activity_level": "unknown",
+    "summary": "{\n  \"species\": [\n    {\n      \"name\": \"pigeon\",\n      \"count\": 2\n    },\n    {\n      \"name\": \"woodpecker\",\n      \"count\": 1\n    },\n    {\n      \"name\": \"blackbird\",\n      \"count\": 1\n    },\n    {\n      \"name\": \"starling\",\n      \"count\": 1\n    },\n    {\n      \"name\": \"sparrow\",\n      \"count\": 1\n    }\n  ],\n  \n  \"dominant_species\": \"pigeon\",\n  \n  \"behavior\": \"resting\",\n  \n  \"interaction\": \"peaceful\",\n  \n  \"activity_level\": \"low\",\n  \n  \"weather\": \"clear\"\n  \n  \"summary\": \"Five birds observed: two pigeons, one woodpecker, one blackbird, one starling, and one sparrow. They were resting peacefully in clear weather.\"\n}",
+    "event": "species_change"
+}

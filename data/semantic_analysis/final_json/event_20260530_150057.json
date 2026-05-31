@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_150057",
+    "daytime": "day",
+    "screenshot": "event_20260530_150057.jpg",
+    "species": [
+        {
+            "name": "blue pigeon",
+            "count": 1
+        }
+    ],
+    "dominant_species": "blue pigeon",
+    "behavior": "feeding",
+    "interaction": "none",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "A single blue pigeon is feeding from a wooden bird feeder in a garden with greenery and rocks, showing no signs of aggression or interaction. The weather is clear with no indications of rain or snow.",
+    "event": "species_change"
+}

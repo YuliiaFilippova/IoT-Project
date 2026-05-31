@@ -1,0 +1,12 @@
+{
+    "event_id": "20260530_144655",
+    "daytime": "day",
+    "screenshot": "event_20260530_144655.jpg",
+    "species": [],
+    "dominant_species": "unknown",
+    "behavior": "unknown",
+    "interaction": "unknown",
+    "activity_level": "unknown",
+    "summary": "{\n  \"species\": [\n    {\n      \"name\": \"pigeon\",\n      \"count\": 2\n    },\n    {\n      \"name\": \"crow\",\n      \"count\": 3\n    }\n  ],\n  \n  \"dominant_species\": \"crow\",\n  \n  \"behavior\": \"resting\",\n  \n  \"interaction\": \"peaceful\",\n  \n  \"activity_level\": \"low\",\n  \n  \"weather\": \"clear\"\n}\n  \n\"summary\": \"Five birds (two pigeons and three crows) were observed resting in a peaceful environment with clear weather.\"",
+    "event": "species_change"
+}

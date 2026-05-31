@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_150128",
+    "daytime": "day",
+    "screenshot": "event_20260530_150128.jpg",
+    "species": [
+        {
+            "name": "black bird",
+            "count": 7
+        }
+    ],
+    "dominant_species": "black bird",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Seven black birds are feeding peacefully in a wooden bird feeder with clear weather.",
+    "event": "species_change"
+}

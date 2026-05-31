@@ -1,0 +1,22 @@
+{
+    "event_id": "20260531_161418",
+    "daytime": "day",
+    "screenshot": "event_20260531_161418.jpg",
+    "species": [
+        {
+            "name": "sparrow",
+            "count": 2
+        },
+        {
+            "name": "blackbird",
+            "count": 1
+        }
+    ],
+    "dominant_species": "sparrow",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two sparrows and one blackbird are feeding peacefully with a low activity level in clear weather.",
+    "event": "species_change"
+}

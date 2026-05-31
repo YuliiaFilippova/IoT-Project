@@ -1,0 +1,21 @@
+{
+    "event_id": "20260530_141226",
+    "daytime": "day",
+    "screenshot": "event_20260530_141226.jpg",
+    "species": [
+        {
+            "name": "dove",
+            "count": 1
+        },
+        {
+            "name": "crow",
+            "count": 2
+        }
+    ],
+    "dominant_species": "crow",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "event": "species_change"
+}

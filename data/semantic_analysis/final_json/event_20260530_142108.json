@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_142108",
+    "daytime": "day",
+    "screenshot": "event_20260530_142108.jpg",
+    "species": [
+        {
+            "name": "dove",
+            "count": 1
+        }
+    ],
+    "dominant_species": "dove",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "A single dove is feeding on birdseed in a wooden bird feeder surrounded by greenery, with clear weather and no signs of rain or snow.",
+    "event": "species_change"
+}

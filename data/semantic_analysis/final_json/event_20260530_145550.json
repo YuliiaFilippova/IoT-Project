@@ -1,0 +1,22 @@
+{
+    "event_id": "20260530_145550",
+    "daytime": "day",
+    "screenshot": "event_20260530_145550.jpg",
+    "species": [
+        {
+            "name": "grey bird",
+            "count": 1
+        },
+        {
+            "name": "black bird with white spots",
+            "count": 1
+        }
+    ],
+    "dominant_species": "black bird with white spots",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two birds, one grey and one black with white spots, are peacefully feeding from a wooden bird feeder in a garden setting on clear weather.",
+    "event": "species_change"
+}

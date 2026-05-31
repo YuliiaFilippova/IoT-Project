@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_151912",
+    "daytime": "day",
+    "screenshot": "event_20260530_151912.jpg",
+    "species": [
+        {
+            "name": "bird",
+            "count": 3
+        }
+    ],
+    "dominant_species": "bird",
+    "behavior": "feeding",
+    "interaction": "none",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Three birds are feeding on birdseed in a wooden box surrounded by mulch and greenery with clear weather.",
+    "event": "feeding_activity"
+}

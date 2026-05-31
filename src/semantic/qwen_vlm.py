@@ -19,25 +19,22 @@ model = Qwen2VLForConditionalGeneration.from_pretrained(
 
 processor = AutoProcessor.from_pretrained(MODEL_NAME)
 
-
-PROMPT = """
+def analyze_frames(frame_paths):
+    prompt = """
 Analyze this wildlife feeder image.
 
-Describe:
+Describe only:
 
-- likely animal species
-- number of visible animals
-- behavior (feeding,resting,moving or aggressive)
+- animal species and their count (IMPORTANT)
+- behavior (feeding, resting, moving or aggressive)
 - interaction (none, peaceful, competitive or fighting)
 - overall activity level (low, medium or high)
+- weather conditions (rain, snow, clear)
 
 Use only clearly visible information.
 
 Output ONE SHORT sentence.
 """
-
-
-def analyze_frames(frame_paths):
 
     images = []
 
@@ -63,7 +60,7 @@ def analyze_frames(frame_paths):
                 ],
                 {
                     "type": "text",
-                    "text": PROMPT
+                    "text": prompt
                 }
             ]
         }
@@ -85,7 +82,7 @@ def analyze_frames(frame_paths):
 
         output = model.generate(
             **inputs,
-            max_new_tokens=40,
+            max_new_tokens=60,
             do_sample=False,
             repetition_penalty=1.1,
             no_repeat_ngram_size=3,
@@ -100,4 +97,5 @@ def analyze_frames(frame_paths):
         skip_special_tokens=True
     )
 
+    #print(response)
     return response

@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_145418",
+    "daytime": "day",
+    "screenshot": "event_20260530_145418.jpg",
+    "species": [
+        {
+            "name": "bird",
+            "count": 2
+        }
+    ],
+    "dominant_species": "bird",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two birds are peacefully feeding from a bird feeder in a garden with greenery and a small tree, clear weather.",
+    "event": "species_change"
+}

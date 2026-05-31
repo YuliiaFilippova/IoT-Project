@@ -1,32 +1,22 @@
 import cv2
 import time
-
 from datetime import datetime
-
 from collector.capture_stream import open_stream
 from collector.trigger_logic import TriggerAnalyzer
-
 from detection.yolo_detect import detect_animals
-
 from metadata.detect_daytime import detect_daytime
-from metadata.extract_weather import extract_temperature
-
 from storage.save_screenshot import save_screenshot
 from storage.save_json import save_json
-from storage.save_csv import save_csv
-
-from utils.paths import JSON_DIR
-
+from utils.paths import RAW_EVENT_DIR
 
 YOUTUBE_URL = "https://www.youtube.com/watch?v=4kRzwJXaeIM"
-
+#YOUTUBE_URL = "https://www.youtube.com/watch?v=F0GOOP82094"
+#YOUTUBE_URL = "https://www.youtube.com/watch?v=dJVVcv9-ndg"
 cap = open_stream(YOUTUBE_URL)
 
 # IMPORTANT
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
-
 trigger = TriggerAnalyzer()
-
 frame_counter = 0
 
 while True:
@@ -36,48 +26,36 @@ while True:
     #frame = cv2.resize(frame, (640, 360))
 
     if not ret:
-
         print("Stream connection lost")
-
         cap.release()
-
         time.sleep(5)
-
         print("Reconnecting stream...")
-
         cap = open_stream(YOUTUBE_URL)
-
         continue
 
     frame_counter += 1
 
     # ALWAYS show smooth livestream
     display_frame = frame.copy()
-
-    trigger_text = "MONITORING"
-
+    #trigger_text = "MONITORING"
     animal_count = 0
 
     # ONLY process every 10th frame
     if frame_counter % 10 == 0:
-
         yolo_output = detect_animals(frame)
-
         animal_count = yolo_output["animal_count"]
-
         display_frame = yolo_output["annotated_frame"]
-
         print(f"Animals: {animal_count}")
 
         if trigger.should_trigger(animal_count):
-
             trigger_text = "TRIGGERED"
-
+            event_id = datetime.now().strftime("%Y%m%d_%H%M%S")
             print("Event Triggered")
 
-            screenshot_filename = save_screenshot(frame)
-
+            screenshot_filename = save_screenshot(frame, event_id)
             telemetry = {
+
+                "event_id": event_id,
 
                 "timestamp": str(datetime.now()),
 
@@ -92,17 +70,18 @@ while True:
 
             save_json(
                 telemetry,
-                JSON_DIR
+                RAW_EVENT_DIR,
+                event_id
             )
 
-            save_csv({
+            #save_csv({
 
-                "timestamp": telemetry["timestamp"],
+             #   "timestamp": telemetry["timestamp"],
 
-                "animal_count": telemetry["animal_count"],
+              #  "animal_count": telemetry["animal_count"],
 
-                "daytime": telemetry["daytime"]
-            })
+               # "daytime": telemetry["daytime"]
+            #})
 
     # OVERLAYS
     cv2.putText(
@@ -115,15 +94,15 @@ while True:
         2
     )
 
-    cv2.putText(
-        display_frame,
-        trigger_text,
-        (20, 80),
-        cv2.FONT_HERSHEY_SIMPLEX,
-        1,
-        (0, 0, 255),
-        2
-    )
+    #cv2.putText(
+     #   display_frame,
+      #  trigger_text,
+       # (20, 80),
+        #cv2.FONT_HERSHEY_SIMPLEX,
+        #1,
+        #(0, 0, 255),
+        #2
+    #)
 
     # SMOOTH DISPLAY
     cv2.imshow(

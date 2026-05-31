@@ -1,114 +1,155 @@
-# Wildlife Analytics Pipeline
+# Semantic Wildlife Monitoring from Public Livestreams
 
-This project explores how multimodal AI systems can transform raw wildlife livestreams into structured semantic data suitable for ecological monitoring and behavioral analysis.
+An AI-powered wildlife monitoring system that automatically transforms raw livestreams into structured ecological observations.
+
+This project combines object detection, Vision-Language Models (VLMs), and Large Language Models (LLMs) to identify animal species, estimate their numbers, describe behavior and interactions, and generate machine-readable datasets for further analysis.
 
 ---
+
+## Applications
+
+The generated observations can support:
+
+* Wildlife monitoring
+* Species diversity assessment
+* Behavioral analysis
+* Animal activity tracking
+* Ecological research
+* Animal welfare monitoring
+
+Potential use cases include:
+
+* Nature reserves
+* Zoos
+* Wildlife rehabilitation centers
+* Veterinary clinics
+
+Because semantic analysis is controlled through prompts, the same architecture can be adapted to many other livestream monitoring tasks.
+
+---
+
 ## Features
 
-- Real-time YouTube livestream processing
-- Wildlife detection with YOLOv8
-- Event-driven frame extraction
-- Temporal filtering to avoid duplicate detections
-- Semantic scene analysis using Qwen2-VL
-- Structured JSON and CSV telemetry generation
-- Livestream timestamp extraction via OCR
-- Live monitoring interface with detection overlays
+* Real-time livestream processing
+* Event-driven frame extraction
+* Wildlife detection using YOLOv8
+* Semantic scene analysis using Qwen2-VL
+* Structured JSON event generation
+* CSV dataset creation
+* OCR extraction of livestream metadata
+* Automatic behavior and interaction analysis
+* Basic ecological analytics
 
 ---
 
-## Pipeline
+## System Pipeline
 
 ```text
 Livestream
-→ YOLO Detection
-→ Trigger Logic
-→ Frame Extraction
-→ Semantic Analysis
-→ Structured Telemetry
+    ↓
+YOLO Detection
+    ↓
+Frame Extraction
+    ↓
+VLM Semantic Analysis
+    ↓
+LLM Structuring
+    ↓
+JSON Events
+    ↓
+CSV Dataset
+    ↓
+Analytics
 ```
+
 ---
 
-## Example Output
+## Example Observation
+
+![Example](images/example_output.png)
+
+---
+
+## Data Collection
+
+Each extracted frame and its corresponding JSON observation share the same timestamp-based identifier.
+
+Example:
+
 ```text
-{
-  "species": [
-    {
-      "name": "pheasant",
-      "count": 2
-    },
-    {
-      "name": "pigeon",
-      "count": 1
-    }
-  ],
-  "dominant_species": "pheasant",
-  "behavior": "feeding",
-  "interaction": "peaceful",
-  "activity_level": "medium",
-  "summary": "Two pheasants and a pigeon are feeding peacefully from a wooden bird feeder.The overall activity level is medium.",
-  "timestamp": "2026-05-17 18:48:09.423705",
-  "source_image": "event_20260517_184759.jpg",
-  "event": "species_change"
-  "daytime": "day",
-  "temperature": "11°C",
-  
-}
+event_20260530_151357.jpg
+event_20260530_151357.json
 ```
+
+This ensures full traceability between source images and generated semantic observations while preserving the temporal context of the livestream.
+
+---
+
+## Dataset
+
+The collected observations are converted into a CSV dataset.
+
+Each row represents a single species observation together with semantic and environmental information such as:
+
+* Species
+* Count
+* Behavior
+* Interaction type
+* Activity level
+* Weather conditions
+* Daytime
+
+Example:
+
+![Example](images/dataset.png)
+
+---
+
+## Demo Video
+
+A short project demonstration is available here:
+
+[Demo Video](https://youtu.be/x2J2IYK3u1w)
 
 ---
 
 ## Tech Stack
-- Python
-- OpenCV
-- YOLOv8
-- Qwen2-VL
-- Ollama
-- Pandas
-- Pytesseract
-- FFmpeg
-- yt-dlp
 
----
-
-## Current Limitations
-- Livestream latency depends on hardware performance
-- Lightweight detector may occasionally miss animals
-- OCR timestamp extraction is not always perfect
-- Analytics layer is still under development
-
----
-
-## Future Work
-- Statistical analysis of collected telemetry
-- Wildlife activity visualization
-- Object tracking
-- Database integration
-- Real-time analytics dashboard
-- #### Demo: A short demonstration video with a system walkthrough and live detection examples will be added soon.
+* Python
+* OpenCV
+* YOLOv8
+* VLM (Qwen2_VL-2B-Instruct)
+* LLM (qwen2.5:14b)
+* Ollama
+* Pandas
+* Pytesseract
+* FFmpeg
+* yt-dlp
 
 ---
 
 ## Run
 
-1. Install dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-2. Start live collection:
+
+Start livestream collection:
 
 ```bash
 python src/collect_live_data.py
 ```
 
-3. Run semantic analysis:
+Run semantic analysis:
 
 ```bash
 python src/analyze_events.py
 ```
 
----
+Create CSV dataset
 
-## Author
-
-### Yuliia Filippova
+```bash
+python src/export_data_csv.py
+```

@@ -1,0 +1,22 @@
+{
+    "event_id": "20260530_143116",
+    "daytime": "day",
+    "screenshot": "event_20260530_143116.jpg",
+    "species": [
+        {
+            "name": "pigeon",
+            "count": 2
+        },
+        {
+            "name": "crow",
+            "count": 1
+        }
+    ],
+    "dominant_species": "crow",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two pigeons and one crow are feeding peacefully with a low activity level in clear weather.",
+    "event": "species_change"
+}

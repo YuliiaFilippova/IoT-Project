@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_143641",
+    "daytime": "day",
+    "screenshot": "event_20260530_143641.jpg",
+    "species": [
+        {
+            "name": "pigeon",
+            "count": 5
+        }
+    ],
+    "dominant_species": "pigeon",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Five pigeons are peacefully feeding on birdseed in a wooden feeder box with clear weather conditions.",
+    "event": "species_change"
+}

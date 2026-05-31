@@ -4,9 +4,11 @@ import shutil
 from utils.paths import (
     SCREENSHOT_DIR,
     PROCESSED_DIR,
-    JSON_DIR,
-    SEMANTIC_JSON_DIR,
-    CSV_DIR
+    #JSON_DIR,
+    #SEMANTIC_JSON_DIR,
+    #CSV_DIR,
+    RAW_EVENT_DIR,
+    FINAL_EVENT_DIR
 )
 
 
@@ -39,10 +41,14 @@ clear_folder(SCREENSHOT_DIR)
 
 clear_folder(PROCESSED_DIR)
 
-clear_folder(JSON_DIR)
+#clear_folder(JSON_DIR)
 
-clear_folder(SEMANTIC_JSON_DIR)
+#clear_folder(SEMANTIC_JSON_DIR)
 
-clear_folder(CSV_DIR)
+#clear_folder(CSV_DIR)
+
+clear_folder(RAW_EVENT_DIR)
+
+clear_folder(FINAL_EVENT_DIR)
 
 print("Reset complete.")

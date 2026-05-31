@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_150338",
+    "daytime": "day",
+    "screenshot": "event_20260530_150338.jpg",
+    "species": [
+        {
+            "name": "bird",
+            "count": 2
+        }
+    ],
+    "dominant_species": "bird",
+    "behavior": "feeding",
+    "interaction": "none",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Two birds are observing birdseed on a wooden box, appearing in a peaceful environment with clear weather.",
+    "event": "species_change"
+}

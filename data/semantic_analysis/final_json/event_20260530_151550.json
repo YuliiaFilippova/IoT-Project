@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_151550",
+    "daytime": "day",
+    "screenshot": "event_20260530_151550.jpg",
+    "species": [
+        {
+            "name": "black bird",
+            "count": 1
+        }
+    ],
+    "dominant_species": "black bird",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "A single black bird is feeding in a wooden bird feeder with a clear sky background.",
+    "event": "species_change"
+}

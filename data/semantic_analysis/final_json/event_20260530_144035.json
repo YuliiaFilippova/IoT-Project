@@ -1,0 +1,12 @@
+{
+    "event_id": "20260530_144035",
+    "daytime": "day",
+    "screenshot": "event_20260530_144035.jpg",
+    "species": [],
+    "dominant_species": "unknown",
+    "behavior": "unknown",
+    "interaction": "unknown",
+    "activity_level": "unknown",
+    "summary": "{\n  \"species\": [\n    {\n      \"name\": \"black bird\",\n      \"count\": 5\n    },\n    {\n      \"name\": \"duck\",\n      \"count\": 1\n    }\n  ],\n  \n  \"dominant_species\": \"black bird\",\n  \n  \"behavior\": \"feeding\",\n  \n  \"interaction\": \"peaceful\",\n  \n  \"activity_level\": \"low\",\n  \n  \"weather\": \"clear\"\n  \n  \"summary\": \"Five black birds and one duck are feeding peacefully in a wooden bird feeder with wood chips, under clear weather conditions.\"\n}",
+    "event": "species_change"
+}

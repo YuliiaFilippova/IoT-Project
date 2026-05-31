@@ -1,0 +1,26 @@
+{
+    "event_id": "20260530_145115",
+    "daytime": "day",
+    "screenshot": "event_20260530_145115.jpg",
+    "species": [
+        {
+            "name": "grey bird",
+            "count": 1
+        },
+        {
+            "name": "black with orange beak",
+            "count": 1
+        },
+        {
+            "name": "blue-grey with yellow beak",
+            "count": 1
+        }
+    ],
+    "dominant_species": "grey bird",
+    "behavior": "resting",
+    "interaction": "none",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "Three birds (one grey, one black with orange beak, one blue-grey with yellow beak) are observed resting in clear weather with no interaction.",
+    "event": "species_change"
+}

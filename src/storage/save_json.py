@@ -4,13 +4,11 @@ import json
 from datetime import datetime
 
 
-def save_json(data, output_dir):
+def save_json(data, output_dir, event_id):
 
     os.makedirs(output_dir, exist_ok=True)
 
-    filename = datetime.now().strftime(
-        "%Y%m%d_%H%M%S.json"
-    )
+    filename = f"event_{event_id}.json"
 
     filepath = os.path.join(
         output_dir,

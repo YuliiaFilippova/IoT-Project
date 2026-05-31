@@ -1,10 +1,7 @@
-# Virtual environments
-.venv/
-venv/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
+*.pyo
 
 # macOS
 .DS_Store
@@ -13,8 +10,27 @@ __pycache__/
 .idea/
 .vscode/
 
-# Old files
-old/
+# Virtual environments
+venv/
+.venv/
+env/
 
-# YOLO model weights
-*.pt
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Large datasets
+data/raw_events/screenshots/
+data/raw_events/processed/
+
+# Generated analytics
+*.csv
+
+# Environment variables
+.env

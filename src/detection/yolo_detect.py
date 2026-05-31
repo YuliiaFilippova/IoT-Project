@@ -8,14 +8,17 @@ model = YOLO("yolov8s.pt") # fast, good accuracy
 #model = YOLO("yolov8m.pt") # medium speed, better accuracy
 #model = YOLO("yolov8l/x.pt") # heavy speed, strong accuracy
 
-IGNORE_CLASSES = [
-    "bench",
-    "chair",
-    "person",
-    "bottle",
-    "cup",
-    "tv",
-    "laptop"
+ANIMAL_CLASSES = [
+    "bird",
+    "cat",
+    "dog",
+    "horse",
+    "sheep",
+    "cow",
+    "elephant",
+    "bear",
+    "zebra",
+    "giraffe"
 ]
 
 
@@ -40,7 +43,7 @@ def detect_animals(frame):
             confidence = float(box.conf[0])
 
             # ignore unwanted classes
-            if class_name in IGNORE_CLASSES:
+            if class_name not in ANIMAL_CLASSES:
                 continue
 
             # confidence threshold

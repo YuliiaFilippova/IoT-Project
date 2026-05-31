@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_142038",
+    "daytime": "day",
+    "screenshot": "event_20260530_142038.jpg",
+    "species": [
+        {
+            "name": "pigeon",
+            "count": 1
+        }
+    ],
+    "dominant_species": "pigeon",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "A pigeon is peacefully feeding in the bird feeder on clear weather.",
+    "event": "species_change"
+}

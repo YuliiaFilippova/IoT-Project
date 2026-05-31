@@ -1,0 +1,12 @@
+{
+    "event_id": "20260530_140517",
+    "daytime": "day",
+    "screenshot": "event_20260530_140517.jpg",
+    "species": [],
+    "dominant_species": "unknown",
+    "behavior": "unknown",
+    "interaction": "unknown",
+    "activity_level": "unknown",
+    "summary": "{\n  \"species\": [\n    {\n      \"name\": \"dove\",\n      \"count\": 1\n    }\n  ],\n  \n  \"dominant_species\": \"dove\",\n  \n  \"behavior\": \"feeding\",\n  \n  \"interaction\": \"peaceful\",\n  \n  \"activity_level\": \"low\",\n  \n  \"weather\": \"clear\"\n  \n  \"summary\": \"A dove is peacefully feeding on bird seed in a wooden bird feeder.\"\n}",
+    "event": "system_start"
+}

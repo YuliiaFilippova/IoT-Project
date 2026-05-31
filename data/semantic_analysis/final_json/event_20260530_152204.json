@@ -1,0 +1,18 @@
+{
+    "event_id": "20260530_152204",
+    "daytime": "day",
+    "screenshot": "event_20260530_152204.jpg",
+    "species": [
+        {
+            "name": "sparrow",
+            "count": 1
+        }
+    ],
+    "dominant_species": "sparrow",
+    "behavior": "feeding",
+    "interaction": "peaceful",
+    "activity_level": "low",
+    "weather": "clear",
+    "summary": "A single sparrow is peacefully feeding at the bird feeder in clear weather.",
+    "event": "species_change"
+}
