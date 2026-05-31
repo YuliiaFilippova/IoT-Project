@@ -1,0 +1,140 @@
+event_id,species,count,dominant_species,behavior,interaction,activity_level,event,daytime,weather
+20260530_144827,pigeon,3,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_142859,pigeon,3,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_142859,bird,1,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_141849,Pigeon,1,Pigeon,feeding,peaceful,low,feeding_activity,day,clear
+20260530_142232,bird,2,bird,feeding,none,low,species_change,day,clear
+20260530_141330,crows,3,crows,feeding,peaceful,low,species_change,day,clear
+20260530_143927,blue pigeon,1,blue pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_141432,crow,2,crow,resting,peaceful,low,species_change,day,clear
+20260530_141432,pigeon,1,crow,resting,peaceful,low,species_change,day,clear
+20260530_145739,pigeon,2,pigeon,resting,none,low,species_change,day,clear
+20260530_145739,starling,1,pigeon,resting,none,low,species_change,day,clear
+20260530_143403,crow,2,pigeon,resting,peaceful,low,species_change,day,clear
+20260530_143403,pigeon,3,pigeon,resting,peaceful,low,species_change,day,clear
+20260530_143116,pigeon,2,crow,feeding,peaceful,low,species_change,day,clear
+20260530_143116,crow,1,crow,feeding,peaceful,low,species_change,day,clear
+20260530_141652,Pigeon,1,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_152204,sparrow,1,sparrow,feeding,peaceful,low,species_change,day,clear
+20260530_143228,Pigeon,3,Pigeon,feeding,none,low,species_change,day,clear
+20260530_144105,Pigeon,1,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_151254,black bird,1,black bird,feeding,none,low,species_change,day,clear
+20260530_151254,white bird,1,black bird,feeding,none,low,species_change,day,clear
+20260530_150412,black bird,2,black bird,feeding,peaceful,low,species_change,day,clear
+20260530_142511,crow,2,crow,feeding,peaceful,low,species_change,day,clear
+20260530_142511,pigeon,1,crow,feeding,peaceful,low,species_change,day,clear
+20260530_143300,pigeon,3,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145450,pigeon,2,pigeon,feeding,peaceful,medium,species_change,day,clear
+20260530_145450,woodpecker,1,pigeon,feeding,peaceful,medium,species_change,day,clear
+20260530_145450,starling,1,pigeon,feeding,peaceful,medium,species_change,day,clear
+20260530_144312,pigeon,3,pigeon,feeding,peaceful,low,feeding_activity,day,clear
+20260530_144312,bird,1,pigeon,feeding,peaceful,low,feeding_activity,day,clear
+20260530_143009,pigeon,1,"pigeon,bird,woodpecker",feeding,peaceful,low,species_change,day,clear
+20260530_143009,pigeon,2,"pigeon,bird,woodpecker",feeding,peaceful,low,species_change,day,clear
+20260530_143009,bird,3,"pigeon,bird,woodpecker",feeding,peaceful,low,species_change,day,clear
+20260530_143009,woodpecker,1,"pigeon,bird,woodpecker",feeding,peaceful,low,species_change,day,clear
+20260530_143009,ground squirrel,1,"pigeon,bird,woodpecker",feeding,peaceful,low,species_change,day,clear
+20260530_143009,bird,1,"pigeon,bird,woodpecker",feeding,peaceful,low,species_change,day,clear
+20260530_144959,Pigeon,1,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_144518,crow,5,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_143434,Pigeon,4,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_151327,black bird,3,black bird,feeding,none,low,feeding_activity,day,clear
+20260530_150301,black bird,3,black bird,feeding,peaceful,low,species_change,day,clear
+20260530_141547,Dove,1,Dove,feeding,peaceful,low,species_change,day,clear
+20260530_150655,Blackbird,1,Blackbird,feeding,peaceful,low,species_change,day,clear
+20260530_144929,Blackbird,5,Blackbird,feeding,peaceful,low,species_change,day,clear
+20260530_145115,grey bird,1,grey bird,resting,none,low,species_change,day,clear
+20260530_145115,black with orange beak,1,grey bird,resting,none,low,species_change,day,clear
+20260530_145115,blue-grey with yellow beak,1,grey bird,resting,none,low,species_change,day,clear
+20260530_144211,crow,2,crow,resting,peaceful,low,species_change,day,clear
+20260530_144211,pigeon,1,crow,resting,peaceful,low,species_change,day,clear
+20260530_144211,magpie,1,crow,resting,peaceful,low,species_change,day,clear
+20260530_144211,blackbird,1,crow,resting,peaceful,low,species_change,day,clear
+20260530_144211,bluebird,1,crow,resting,peaceful,low,species_change,day,clear
+20260530_142613,dove,2,crow,resting,peaceful,low,species_change,day,clear
+20260530_142613,crow,1,crow,resting,peaceful,low,species_change,day,clear
+20260530_142756,guinea fowl,3,guinea fowl,feeding,peaceful,low,species_change,day,clear
+20260530_142756,crow,2,guinea fowl,feeding,peaceful,low,species_change,day,clear
+20260530_142756,pigeon,1,guinea fowl,feeding,peaceful,low,species_change,day,clear
+20260530_151357,crow,5,crow,feeding,peaceful,low,species_change,day,clear
+20260530_151224,bird,1,bird,feeding,peaceful,low,feeding_activity,day,clear
+20260530_145318,crow,1,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145318,pigeon,2,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145318,turkey,1,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_144621,crow,3,crow,feeding,peaceful,low,species_change,day,clear
+20260530_142937,pigeon,2,pigeon,feeding,peaceful,low,feeding_activity,day,clear
+20260530_142937,crow,1,pigeon,feeding,peaceful,low,feeding_activity,day,clear
+20260530_144549,black bird,5,black bird,feeding,peaceful,low,species_change,day,clear
+20260530_143536,pigeon,1,starling,feeding,peaceful,low,species_change,day,clear
+20260530_143536,starling,8,starling,feeding,peaceful,low,species_change,day,clear
+20260530_143824,pigeon,2,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_143824,crow,1,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145620,Pigeon,2,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_140547,bird,2,bird,feeding,peaceful,low,species_change,day,clear
+20260530_144857,black bird,5,black bird,feeding,peaceful,low,species_change,day,clear
+20260530_144857,gray pigeon,1,black bird,feeding,peaceful,low,species_change,day,clear
+20260530_142038,pigeon,1,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_152038,sparrow,2,sparrow,resting,peaceful,low,normal_activity,day,clear
+20260530_152038,finch,1,sparrow,resting,peaceful,low,normal_activity,day,clear
+20260530_150228,crow,2,crow,feeding,peaceful,low,species_change,day,clear
+20260530_150228,pigeon,1,crow,feeding,peaceful,low,species_change,day,clear
+20260530_143957,bird,5,bird,feeding,none,high,high_activity,day,clear
+20260530_142405,pigeon,2,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_142405,bird,1,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_151550,black bird,1,black bird,feeding,peaceful,low,species_change,day,clear
+20260530_151842,bird,3,bird,resting,peaceful,low,normal_activity,day,clear
+20260530_144343,crow,2,crow,feeding,peaceful,low,species_change,day,clear
+20260530_144343,bird,5,crow,feeding,peaceful,low,species_change,day,clear
+20260530_143039,Pigeon,3,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_150817,bird,1,bird,feeding,peaceful,low,species_change,day,clear
+20260530_144415,crow,7,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_142646,crow,2,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_142646,pigeon,1,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_145029,pigeon,2,pigeon,resting,peaceful,low,species_change,day,clear
+20260530_145029,sparrow,1,pigeon,resting,peaceful,low,species_change,day,clear
+20260530_151912,bird,3,bird,feeding,none,low,feeding_activity,day,clear
+20260530_145910,Pigeon,2,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_143606,bird,7,bird,feeding,none,high,high_activity,day,clear
+20260530_151709,Great Spotted Woodpecker,1,Great Spotted Woodpecker,feeding,none,low,species_change,day,clear
+20260530_141226,dove,1,crow,feeding,peaceful,low,species_change,day,clear
+20260530_141226,crow,2,crow,feeding,peaceful,low,species_change,day,clear
+20260530_145418,bird,2,bird,feeding,peaceful,low,species_change,day,clear
+20260530_150027,Pigeon,1,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_142108,dove,1,dove,feeding,peaceful,low,species_change,day,clear
+20260530_145248,bird,5,bird,feeding,peaceful,low,species_change,day,clear
+20260530_143332,Pigeon,3,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145550,grey bird,1,black bird with white spots,feeding,peaceful,low,species_change,day,clear
+20260530_145550,black bird with white spots,1,black bird with white spots,feeding,peaceful,low,species_change,day,clear
+20260530_141047,dove,1,dove,feeding,peaceful,low,species_change,day,clear
+20260530_152112,bird,1,bird,feeding,peaceful,low,species_change,day,clear
+20260530_144140,blue pigeon,5,blue pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145839,pigeon,3,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145839,crow,1,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_145839,dove,2,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_150338,bird,2,bird,feeding,none,low,species_change,day,clear
+20260530_150857,bird,1,bird,feeding,peaceful,low,feeding_activity,day,clear
+20260530_140904,crow,2,crow,resting,none,low,species_change,day,clear
+20260530_140904,pigeon,1,crow,resting,none,low,species_change,day,clear
+20260530_140729,pigeon,2,crow,feeding,peaceful,low,species_change,day,clear
+20260530_140729,crow,1,crow,feeding,peaceful,low,species_change,day,clear
+20260530_145520,pigeon,3,pigeon,feeding,peaceful,low,feeding_activity,day,clear
+20260530_144448,crow,5,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_145218,Pigeon,1,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_150558,Pigeon,1,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_150057,blue pigeon,1,blue pigeon,feeding,none,low,species_change,day,clear
+20260530_143856,pigeon,5,pigeon,feeding,peaceful,low,feeding_activity,day,clear
+20260530_142302,dove,1,dove,feeding,peaceful,low,species_change,day,clear
+20260530_152007,sparrow,3,sparrow,feeding,peaceful,low,species_change,day,clear
+20260530_145957,pigeon,3,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_143641,pigeon,5,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_150128,black bird,7,black bird,feeding,peaceful,low,species_change,day,clear
+20260530_144242,pigeon,5,pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_144757,Crow,5,Crow,feeding,none,low,species_change,day,clear
+20260530_143744,Pigeon,3,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_151811,bird,5,bird,feeding,peaceful,low,species_change,day,clear
+20260530_141503,Pigeon,1,Pigeon,feeding,peaceful,low,species_change,day,clear
+20260530_143504,bird,5,bird,feeding,peaceful,low,species_change,day,clear
+20260530_151519,crow,3,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_142724,crow,2,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_142724,pigeon,1,crow,feeding,peaceful,low,feeding_activity,day,clear
+20260530_151427,crow,3,crow,feeding,peaceful,low,feeding_activity,day,clear
